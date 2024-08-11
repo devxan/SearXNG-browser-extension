@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "SearXNG — Privacy Search Engine",
+  "name": "SearXNG | host.xan.lol private search engine",
   "version": "1.5",
   "author": "Erghel",
   "default_locale": "en",
@@ -20,9 +20,9 @@
     "search_provider": {
       "name": "SearXNG",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "search_url": "https://host.xan.lol/searxng/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://host.xan.lol/searxng/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
