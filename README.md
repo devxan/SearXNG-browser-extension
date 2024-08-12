@@ -1,4 +1,4 @@
-# SearXNG-Web-Extension (Unofficial)
+# SearXNG-browser-extension (Unofficial fork for my own host)
 [<img src="./firefox-add-ons.png" title="Firefox Add-ons" width="auto" height="47" />](https://addons.mozilla.org/en-US/firefox/addon/searxng-search) <p><a href=""><img src="https://img.shields.io/amo/users/searxng-search?style=flat-square" alt="Badge" /></a></p>
 
 # SearXNG
@@ -32,7 +32,7 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "https://searx.be/search?q={searchTerms}"
+      "search_url": "https://host.xan.lol/searxng/search?q={searchTerms}"
     }
   }
 }
@@ -40,16 +40,18 @@ Example:
 
 It means that your browser starts to use second link when you make search request.
 
-# Tricks with extension
+# Extension setup + workaround
 If you want use **SearXNG** as support to main search engine do this:
-1. add this addon into your browser
-2. agree when browser shows you **"Add this extension?"**
-3. disagree when browser shows **"Do you want change your main search engine?"**
-4. use keywords like `@searxng, @searx, @sx` if you want use **SearXNG** when you make request
+1. Add the addon on your browser
+2. Agree to the browser prompt **"Add this extension?"**
+3. Disagree when the browser prompts **"Do you want change your main search engine?"**
+4. Use keywords like `@searxng, @searx, @sx` when you want to use **SearXNG** when you make request
 
 # Contributors
-[**Erghel**](https://github.com/Erghel) - main contributor.
+[**Erghel**](https://github.com/Erghel) - Main contributor.
 
-[**Rodion Borisov**](https://github.com/vintprox) - found `"suggestion_url"` and etc.  
+[**Rodion Borisov**](https://github.com/vintprox) - Found `"suggestion_url"` and etc.  
 
-[**Ivan Muzyka**](https://github.com/SeryiBaran) - found icons and etc.
+[**Ivan Muzyka**](https://github.com/SeryiBaran) - Found icons, etc.
+
+[**Xan**](https://github.com/devxan) - Setup for own instance.
