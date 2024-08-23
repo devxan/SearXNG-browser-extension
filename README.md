@@ -35,7 +35,7 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "https://host.xan.lol/searxng/search?q={searchTerms}"
+      "search_url": "https://search.xan.lol/search?q={searchTerms}"
     }
   }
 }
@@ -45,14 +45,15 @@ It means that your browser starts to use second link when you make search reques
 
 ## Extension setup + workaround
 
-If you want use **SearXNG** as support to main search engine do this:
+If you don't want to want use **SearXanNG** as the default search engine:
 
 1. Add the addon on your browser
 2. Agree to the browser prompt **"Add this extension?"**
 3. Disagree when the browser prompts **"Do you want change your main search engine?"**
-4. Use keywords like `@searxng, @searx, @sx` when you want to use **SearXNG** when you make request
+4. Use keywords like `@searxng, @searx, @sx` to use **SearXanNG**
 
-# Contributors
+## Contributors
+
 [**Erghel**](https://github.com/Erghel) - Main contributor.
 
 [**Rodion Borisov**](https://github.com/vintprox) - Found `"suggestion_url"` and etc.  
