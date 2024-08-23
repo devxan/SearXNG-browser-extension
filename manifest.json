@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SearXanNG, the private search engine",
-  "version": "1.5",
+  "version": "1",
   "author": "Xan",
   "homepage_url": "https://github.com/devxan/SearXNG-browser-extension",
   "default_locale": "en",
@@ -14,7 +14,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "SearXNGmetasearch@Xan",
+      "id": "52c8641c-e9ed-40e0-ada3-bee093786d2c",
       "strict_min_version": "64.0"
     }
   },
