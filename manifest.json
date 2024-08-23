@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "SearXanNG, the private search engine",
-  "version": "1.7",
+  "version": "1.8",
   "author": "Xan",
-  "homepage_url": "https://github.com/devxan/SearXNG-browser-extension",
+  "homepage_url": "https://github.com/devxan/SearXanNG-ext",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
