@@ -11,6 +11,14 @@
 
 [**SearXNG instances**](https://searx.space/) - you can use other instances of the SearXNG search engine (for this you will need to fork the repository and replace the link for the search query in `manifest.json`).
 
+## Contributing
+
+Install [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) and run
+```
+web-ext build 
+```
+for a version to upload to [Firefox Addons](https://addons.mozilla.org/developers/addons).
+
 ## How does extension work?
 
 Extension use `manifest.json` settings which change your main search engine.
