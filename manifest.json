@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "SearXNG | host.xan.lol private search engine",
+  "name": "SearXanNG, the private search engine",
   "version": "1.5",
   "author": "Xan",
   "homepage_url": "https://github.com/devxan/SearXNG-browser-extension",
@@ -20,11 +20,11 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "SearXNG",
+      "name": "SearXanNG",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://host.xan.lol/searxng/search?q={searchTerms}",
+      "search_url": "https://search.xan.lol/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://host.xan.lol/searxng/autocompleter?q={searchTerms}",
+      "suggest_url": "https://search.xan.lol/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
