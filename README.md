@@ -1,7 +1,7 @@
-# SearXNG-browser-extension (Unofficial fork for my own host)
+# SearXanNG browser extension
 [<img src="./firefox-add-ons.png" title="Firefox Add-ons" width="auto" height="47" />](https://addons.mozilla.org/en-US/firefox/addon/searxng-search) <p><a href=""><img src="https://img.shields.io/amo/users/searxng-search?style=flat-square" alt="Badge" /></a></p>
 
-# SearXNG
+## SearXNG
 
 **SearXNG** is a free Internet metasearch engine that aggregates results from various search services and databases. Users are not tracked or profiled.
 
@@ -11,12 +11,14 @@
 
 [**SearXNG instances**](https://searx.space/) - you can use other instances of the SearXNG search engine (for this you will need to fork the repository and replace the link for the search query in `manifest.json`).
 
-# How does extension work?
+## How does extension work?
+
 Extension use `manifest.json` settings which change your main search engine.
 
 Example:
 
 (**Default settings**)
+
 ```json
 {
   "chrome_settings_overrides": {
@@ -28,6 +30,7 @@ Example:
 ```
 
 (**With addon**)
+
 ```json
 {
   "chrome_settings_overrides": {
@@ -40,8 +43,10 @@ Example:
 
 It means that your browser starts to use second link when you make search request.
 
-# Extension setup + workaround
+## Extension setup + workaround
+
 If you want use **SearXNG** as support to main search engine do this:
+
 1. Add the addon on your browser
 2. Agree to the browser prompt **"Add this extension?"**
 3. Disagree when the browser prompts **"Do you want change your main search engine?"**
