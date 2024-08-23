@@ -19,38 +19,6 @@ web-ext build
 ```
 for a version to upload to [Firefox Addons](https://addons.mozilla.org/developers/addons).
 
-## How does extension work?
-
-Extension use `manifest.json` settings which change your main search engine.
-
-Example:
-
-(**Default settings**)
-
-```json
-{
-  "chrome_settings_overrides": {
-    "search_provider": {
-      "search_url": "https://example.com/search?q={searchTerms}"
-    }
-  }
-}
-```
-
-(**With addon**)
-
-```json
-{
-  "chrome_settings_overrides": {
-    "search_provider": {
-      "search_url": "https://search.xan.lol/search?q={searchTerms}"
-    }
-  }
-}
-```
-
-It means that your browser starts to use second link when you make search request.
-
 ## Extension setup + workaround
 
 If you don't want to want use **SearXanNG** as the default search engine:
