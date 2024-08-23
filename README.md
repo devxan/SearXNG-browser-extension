@@ -26,7 +26,7 @@ If you don't want to want use **SearXanNG** as the default search engine:
 1. Add the addon on your browser
 2. Agree to the browser prompt **"Add this extension?"**
 3. Disagree when the browser prompts **"Do you want change your main search engine?"**
-4. Use keywords like `@searxng, @searx, @sx` to use **SearXanNG**
+4. Use the keyword `@seax` to use **SearXanNG**
 
 ## Contributors
 
