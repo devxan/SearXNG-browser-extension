@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SearXanNG, the private search engine",
-  "version": "1.6",
+  "version": "1.7",
   "author": "Xan",
   "homepage_url": "https://github.com/devxan/SearXNG-browser-extension",
   "default_locale": "en",
@@ -21,7 +21,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "SearXanNG",
-      "keyword": "@searxng, @searx, @sx",
+      "keyword": "@seax",
       "search_url": "https://search.xan.lol/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
       "suggest_url": "https://search.xan.lol/autocompleter?q={searchTerms}",
